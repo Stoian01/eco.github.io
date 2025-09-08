@@ -2,12 +2,27 @@
     box-sizing: border-box;
 }
 
-nav {
+.flex {
     background-color: #ffe915;
     font-family: Open Sans Condensed, Arial, Helvetica, sans-serif;
     height: 50px;
     text-decoration: solid;
+    display: flex;
+    position: relative;
+    padding: 5px;
     
+}
+
+@media (max-width: 368px) {
+  .flex {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 368px){
+    h1{
+        margin-top: 120px;
+    }
 }
 
 .btn {
