@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #ffe915;
+    font-family: Open Sans Condensed, Arial, Helvetica, sans-serif;
+    height: 50px;
+    text-decoration: solid;
+    
+}
+
+.btn {
+    padding: 10px 15px;
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn_blue{
+    background-color: #1590ff;
+    color: #ffffff;
+    height: 50px;
+    
+    
+}
+
+.btn_blue:hover{
+    background-color: #ffffff;
+    color: #1590ff;
+}
+
+.logoEvolution{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-basis: 60%;
+}
+
+.imgLogo{
+    width: 40%;
+    height: auto;
+}
+
+.card {
+                width: 25%;
+                background-color: #ffffff;
+                border-radius: 8px;
+                padding: 5px;
+                text-align: center;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                margin-bottom: 5px;
+               }
+
+            
+            @media (max-width: 768px) {
+                .card {
+                    width: 48%;
+                }
+            }
+
+            
+            @media (max-width: 480px) {
+                .card {
+                    width: 100%;
+                }
+            }
+.cardConteiner {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            flex-wrap: wrap;
+            padding: 5px;
+}
+
+.card img {
+            height: 150px;
+            width: 200px;
+            margin-top: 15px;
+            margin-right: 15px;
+            border-radius: 4px;
+            align-items: center;
+        }
+
+.card img:hover{
+    width: 300px;
+    height: 300px;
+}
+
+.cardT{
+    font-family: Open sans Condensed; 
+}
+
+.textHome h1, h2, p, ol, li{
+    width: 90%;
+    font-family: Open sans Condensed;
+    text-align: justify;
+    padding-left: 5%;
+}
+
+li {
+    list-style-type: none;
+}
+
