@@ -119,10 +119,10 @@ li {
 
 .developers {
     display: flex;
-            justify-content: space-between;
-            align-items: stretch;
-            flex-wrap: wrap;
-            padding: 5px;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 5px;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -150,9 +150,11 @@ li {
 }
 
 .txtLogo h1, h3, p, dl, dt, dd{
+    height: 50px;
     width: 90%;
     font-family: Open sans Condensed;
     text-align: justify;
     padding-left: 5%;
 }
+
 
