@@ -106,7 +106,7 @@
     font-family: Open sans Condensed; 
 }
 
-.textHome h1, h2, p, ol, li{
+.textHome {
     width: 90%;
     font-family: Open sans Condensed;
     text-align: justify;
@@ -153,13 +153,14 @@ li {
     justify-content: space-between;
 }
 
-.txtLogo h1, h3, p, dl, dt, dd{
+.txtLogo {
     height: 50px;
     width: 90%;
     font-family: Open sans Condensed;
     text-align: justify;
     padding-left: 5%;
 }
+
 
 
 
