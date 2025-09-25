@@ -94,15 +94,9 @@
                 }
             }
 
-             @media (max-width: 2080px) {
+             @media (max-width: 1080px) {
                 .developers {
                     width: 25%;
-                }
-                 h1 {
-                    margin-top: 200px;
-                }
-                .cab {
-                    margin-top: 200px;
                 }
             }
 .cardConteiner {
@@ -220,6 +214,7 @@ li {
     width: 300px;
     height: auto;
 }
+
 
 
 
