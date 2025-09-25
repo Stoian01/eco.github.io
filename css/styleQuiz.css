@@ -103,15 +103,16 @@
       to { opacity: 1; transform: translateY(0); }
     }
 
-    .dica-btn {
-    background-color: #F4B400; 
-    color: #0F9D58; 
-    border: none;
-    border-radius: 5px;
-    padding: 8px 12px;
-    cursor: pointer;
+@media (max-width: 768px) {
+
+h1 {
+     margin-top: 200px;
+    }
 }
 
-.dica-btn:hover {
-    background-color: #DB4437; 
+            
+@media (max-width: 480px) {
+    h1 {
+    margin-top: 200px;
+    }
 }
