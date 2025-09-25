@@ -204,6 +204,12 @@ li {
     padding: 5px;
 }
 
+.mindMap {
+    display: flex;
+    width: 300px;
+    height: auto;
+}
+
 
 
 
