@@ -1,0 +1,117 @@
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 3em;
+      color: #00c6ff;
+      text-shadow: 0 0 10px #00c6ff;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { text-shadow: 0 0 5px #00c6ff; }
+      50% { text-shadow: 0 0 20px #00c6ff; }
+      100% { text-shadow: 0 0 5px #00c6ff; }
+    }
+
+    .question-box {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid #444;
+      border-radius: 16px;
+      padding: 40px;
+      margin: 30px 0;
+      width: 100%;
+      max-width: 1200px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.6);
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    .question-box h3 {
+      font-size: 1.8em;
+      margin-bottom: 30px;
+    }
+
+    button {
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      border: none;
+      border-radius: 10px;
+      padding: 16px 28px;
+      margin: 12px;
+      font-size: 1.2em;
+      color: white;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.3s;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #00c6ff;
+    }
+
+    button:active {
+      transform: scale(0.95);
+    }
+
+    #feedback {
+      font-size: 1.5em;
+      margin-top: 30px;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    #chart-container {
+      width: 100%;
+      max-width: 1000px;
+      margin-top: 50px;
+    }
+
+    canvas {
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      width: 1000px;
+      height: 500px;
+    }
+
+    .dica-texto {
+        display: none;
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #333;
+    }
+
+    .dica-texto.visivel {
+        display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .dica-btn {
+    background-color: #F4B400; 
+    color: #0F9D58; 
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.dica-btn:hover {
+    background-color: #DB4437; 
+}
