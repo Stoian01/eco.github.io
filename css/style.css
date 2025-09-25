@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Open Sans Condensed, Arial, Helvetica, sans-serif;
 }
 
 .flex {
@@ -202,6 +203,7 @@ li {
     position: relative;
     padding: 5px;
 }
+
 
 
 
