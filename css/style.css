@@ -162,7 +162,7 @@ li {
     padding: 5px;
 }
 .developers {
-    width: 25%;
+    width-min: 25%;
     align-items: center;
     background-color: rgb(247, 247, 248);
     padding: 10px;
@@ -208,6 +208,7 @@ li {
     width: 300px;
     height: auto;
 }
+
 
 
 
