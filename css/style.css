@@ -94,7 +94,7 @@
                 }
             }
 
-             @media (max-width: 1080px) {
+             @media (max-width: 1366px) {
                 .developers {
                     width: 25%;
                 }
@@ -214,6 +214,7 @@ li {
     width: 300px;
     height: auto;
 }
+
 
 
 
