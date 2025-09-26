@@ -6,7 +6,7 @@ const questions = [
             dica: "Pense na transição de uma filosofia passiva ('Não seja mau') para uma mais ativa e proativa."
         },
         {
-            text: "Qual dessas ações demonstra o compromisso do Google com a LGPD, de acordo com o texto?",
+            text: "Qual dessas ações demonstra o compromisso do Google com a LGPD, de acordo com o texto na página (Normas de Conduta)?",
             answer: "Oferecer ferramentas para que os usuários possam acessar, corrigir ou excluir seus dados.",
             options: ["Armazenar todos os dados dos usuários para uso interno.", "Oferecer ferramentas para que os usuários possam acessar, corrigir ou excluir seus dados.", "Coletar apenas dados anônimos.", "Limitar o acesso a informações sensíveis a um grupo restrito."],
             dica: "A LGPD se concentra em dar poder e controle sobre os dados aos próprios usuários."
@@ -24,7 +24,7 @@ const questions = [
             dica: "O pilar 'S' foca na relação da empresa com as pessoas e a sociedade."
         },
         {
-            text: "Qual é a relação entre as políticas de privacidade do Google e a LGPD, segundo o texto?",
+            text: "Qual é a relação entre as políticas de privacidade do Google e a LGPD, segundo o texto na página (Normas de Conduta)?",
             answer: "As leis como a LGPD motivaram o Google a aumentar a transparência e dar mais controle aos usuários.",
             options: ["As políticas de privacidade do Google já eram totalmente compatíveis.", "As leis como a LGPD motivaram o Google a aumentar a transparência e dar mais controle aos usuários.", "As leis exigem que o Google pare de coletar dados.", "As políticas de privacidade do Google se tornaram secretas após a LGPD."],
             dica: "A LGPD não proíbe a coleta de dados, mas muda a forma de usá-los."
@@ -139,5 +139,6 @@ const questions = [
             }
         });
     }
+
 
     showQuestion();
