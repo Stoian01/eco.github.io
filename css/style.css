@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+}
+
+dt, dl, dd, h2, h3, p {
+    font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+}
+
+dt {
+    align-items: center;
+    font-weight: 300;
+}
+
+li {
+    list-style-type: none;
+}
+
+.flex {
+    height: 50px;
+    display: flex;
+    position: relative;
+    padding: 5px;
+    background: linear-gradient(#4285F4, #DB4437, #F4B400, #0F9D58);
+}
+
+.cardContainer,
+.developersContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.textHome {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 10px 15px;
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn_blue {
+    background-color: #4285F4;
+    color: #000000;
+    height: 50px;
+}
+
+.btn_blue:hover {
+    background-color: #ffffff;
+    color: #1590ff;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.card {
+    width: 25%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+}
+
+.developers {
+    width: 25%;
+    align-items: center;
+    background-color: rgb(247, 247, 248);
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.cardT {
+    font-family: 'Open Sans Condensed';
+}
+
+.box,
+.box1 {
+    width: auto;
+    font-family: 'Open Sans Condensed';
+    padding-left: 5%;
+    flex: 1 1 300px;
+    margin: 10px;
+}
+
+.box {
+    text-align: justify;
+}
+
+.box1 {
+    text-align: center;
+}
+
+.logoEvolution {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-basis: 60%;
+}
+
+.imgLogo {
+    width: 40%;
+    height: auto;
+}
+
+.card img {
+    height: 150px;
+    width: 200px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 4px;
+    transition: width 0.3s, height 0.3s;
+}
+
+.card img:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.imgDev {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.logoTerc {
+    width: 50px;
+    height: auto;
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.txtLogo {
+    width: 90%;
+    font-family: 'Open Sans Condensed';
+    text-align: justify;
+    height: 50px;
+    text-decoration: solid;
+    display: flex;
+    position: relative;
+    padding: 5px;
+}
+
+.mindMap {
+    display: flex;
+    width: 300px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .card,
+    .developers {
+        width: 48%;
+    }
+    h1,
+    .cab {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 430px) {
+    .flex {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 380px) {
+    .card,
+    .developers {
+        width: 100%;
+    }
+        h1 {
+        margin-top: 200px;
+    }
+        .cab {
+        margin-top: 200px;
+        }
+}
